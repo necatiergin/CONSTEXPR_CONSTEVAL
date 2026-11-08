@@ -10,9 +10,9 @@ constexpr int foo(int x)
 int main()
 {
     //constexpr int a = foo(5); //error
-    int b = foo(5); //error
+    int b = foo(5); 
 
     std::cout << "b = " << b << '\n';
-    int c = foo(5); //error
+    int c = foo(5); 
     std::cout << "c = " << c << '\n';
 }
